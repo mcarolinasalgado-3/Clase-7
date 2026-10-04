@@ -1,0 +1,33 @@
+// ==========================================================
+// TIPOGRAFÍA — fuentes, tamaños y colores de texto.
+// ==========================================================
+@use "../utilities/variables" as *;
+
+body {
+  font-family: $fuente-base;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h1 {
+  color: $color-primario;
+  font-size: $tamano-h1;
+}
+
+h2 {
+  color: $color-primario;
+  font-size: $tamano-h2;
+}
+
+.lobster-regular {
+  font-family: $fuente-titulo;
+  font-size: $tamano-titulo-lobster;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto-imagenes {
+  color: $color-secundario;
+}

@@ -1,0 +1,44 @@
+// ==========================================================
+// VARIABLES — único lugar donde viven los valores del diseño.
+// Si cambia un color o una medida, se cambia acá y listo.
+// ==========================================================
+
+// ----- Colores -----
+$color-primario: #FFD85F;         // amarillo de marca: títulos, links, botones, brillos
+$color-primario-hover: #e6c254;   // amarillo más oscuro (hover del botón)
+$color-fondo: #000000;            // negro: fondo del sitio, del header y de las tarjetas
+$color-texto-claro: #F2F2F2;      // blanco suave: links y contorno de foco del botón
+$color-secundario: #9eb8a3;       // verde grisáceo: textos de imágenes y links visitados
+$color-footer-fondo: #515151;     // gris del footer
+$color-footer-texto: #cccccc;     // gris claro de los textos del footer
+$color-boton-texto: #202b22;      // verde oscuro: texto del botón "Enviar"
+$color-nav-hover: #fbf9f97d;      // blanco semitransparente: hover de los links del menú
+
+// ----- Tipografías -----
+$fuente-base: "Roboto", sans-serif;
+$fuente-titulo: "Lobster", sans-serif;
+
+// ----- Tamaños de texto -----
+$tamano-h1: 3rem;
+$tamano-h2: 2rem;
+$tamano-titulo-lobster: 2.5rem;
+$tamano-subtitulo: 1.5rem;        // links del menú y títulos de tarjeta
+$tamano-texto-tarjeta: 1.2rem;
+
+// ----- Espaciados -----
+$espacio-s: 0.8rem;
+$espacio-m: 1.25rem;
+$espacio-l: 1.5rem;
+$espacio-xl: 2rem;
+
+// ----- Bordes y transiciones -----
+$radio-borde: 5px;
+$transicion: 0.2s ease;
+
+// ----- Breakpoints -----
+$bp-laptop: 992px;
+$bp-desktop: 1024px;
+
+// ----- Imágenes (rutas relativas a css/style.css) -----
+$img-portada: "../img/fondo-portada.jpg";
+$img-eventos: "../img/fondo-eventos.png";
